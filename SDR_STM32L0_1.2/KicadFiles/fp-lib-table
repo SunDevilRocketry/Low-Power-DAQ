@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "USBs")(type "KiCad")(uri "D:/Connector_USB.pretty")(options "")(descr ""))
+)
