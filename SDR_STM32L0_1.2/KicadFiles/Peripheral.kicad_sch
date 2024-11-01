@@ -6722,7 +6722,7 @@
 			)
 		)
 	)
-	(global_label "SPI1_NSS"
+	(global_label "FLASH_SELECT"
 		(shape input)
 		(at 199.39 31.75 180)
 		(fields_autoplaced yes)
@@ -6734,7 +6734,7 @@
 		)
 		(uuid "80b6e128-237f-47bd-936d-264c3c6c0d5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3939 31.75 0)
+			(at 182.9187 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,7 +8365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "USBs:3220-20-0200-00"
+		(property "Footprint" "Connector_USB:3220-20-0200-00"
 			(at 54.61 136.144 0)
 			(effects
 				(font
@@ -8741,7 +8741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "USBs:SST25VF040B-50-4I-S2AE-T"
+		(property "Footprint" "Connector_USB:SST25VF040B-50-4I-S2AE-T"
 			(at 218.44 52.07 0)
 			(effects
 				(font
