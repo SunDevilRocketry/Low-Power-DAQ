@@ -1716,7 +1716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USBs:BMI323"
+		(property "Footprint" "Connector_USB:BMI323"
 			(at 34.29 25.4 0)
 			(effects
 				(font
