@@ -1089,130 +1089,6 @@
 				)
 			)
 		)
-		(symbol "Flight-Computer:Earth"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "Earth"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Earth_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Earth_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "Earth"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Flight-Computer:L-07C27NJV6T"
 			(pin_numbers hide)
 			(pin_names
@@ -3514,7 +3390,7 @@
 			)
 		)
 	)
-	(global_label "USART2_TX"
+	(global_label "USART1_TX"
 		(shape input)
 		(at 104.775 86.36 0)
 		(fields_autoplaced yes)
@@ -3536,7 +3412,7 @@
 			)
 		)
 	)
-	(global_label "BP_INT"
+	(global_label "BP_INT****"
 		(shape input)
 		(at 163.83 37.465 0)
 		(fields_autoplaced yes)
@@ -3548,7 +3424,7 @@
 		)
 		(uuid "4d293691-f223-4e85-a94c-90611c540934")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.5647 37.3856 0)
+			(at 177.0961 37.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +3456,7 @@
 			)
 		)
 	)
-	(global_label "USART2_RX"
+	(global_label "USART1_RX"
 		(shape input)
 		(at 107.315 88.9 0)
 		(fields_autoplaced yes)
@@ -3602,7 +3478,7 @@
 			)
 		)
 	)
-	(global_label "IMU_INPUT"
+	(global_label "IMU_INPUT***"
 		(shape input)
 		(at 30.48 33.02 180)
 		(fields_autoplaced yes)
@@ -3614,7 +3490,7 @@
 		)
 		(uuid "94941db5-f294-4833-b6de-bd542499d1f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.6371 33.02 0)
+			(at 14.7343 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +3500,7 @@
 			)
 		)
 	)
-	(global_label "IMU_OUTPUT"
+	(global_label "IMU_OUTPUT***"
 		(shape input)
 		(at 82.55 38.1 0)
 		(fields_autoplaced yes)
@@ -3636,7 +3512,7 @@
 		)
 		(uuid "9725a83c-22e0-4bb7-b92d-992610ca553b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.0862 38.1 0)
+			(at 99.989 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,73 +4022,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Flight-Computer:Earth")
-		(at 118.745 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28c4c170-08bd-45ad-a4ec-c0b63b107422")
-		(property "Reference" "#PWR043"
-			(at 118.745 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 118.745 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.745 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.745 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.745 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9007fda0-c823-4cd4-9170-e7da79a42580")
-		)
-		(instances
-			(project "SDR_STM32L0"
-				(path "/89f9ff23-e1ad-4f58-91b7-c66faf1eb626/1fbf19df-a699-4243-bbed-cf9775f7d095"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 82.55 20.32 0)
 		(unit 1)
@@ -4687,7 +4496,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 69.215 90)
+		(at 43.18 69.215 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4695,7 +4505,7 @@
 		(dnp no)
 		(uuid "4ed787ff-82b6-4f1f-9628-4f569de78fef")
 		(property "Reference" "R17"
-			(at 41.021 67.056 90)
+			(at 45.339 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +4513,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 45.339 67.056 90)
+			(at 41.021 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,6 +5625,7 @@
 	(symbol
 		(lib_id "Flight-Computer:L-07C27NJV6T")
 		(at 25.4 102.235 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5822,14 +5633,6 @@
 		(dnp no)
 		(uuid "b545fde9-538b-4a8c-ae0b-6f8b3530ee95")
 		(property "Reference" "L1"
-			(at 22.86 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "27nH"
 			(at 27.94 99.695 0)
 			(effects
 				(font
@@ -5837,8 +5640,16 @@
 				)
 			)
 		)
+		(property "Value" "27nH"
+			(at 22.86 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "FlightComputer:L-07C27NJV6T"
-			(at 21.59 107.315 0)
+			(at 29.21 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6528,6 +6339,71 @@
 			(project ""
 				(path "/89f9ff23-e1ad-4f58-91b7-c66faf1eb626/1fbf19df-a699-4243-bbed-cf9775f7d095"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.745 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f28d5540-60eb-4375-8b31-7da0a92b3731")
+		(property "Reference" "#PWR016"
+			(at 118.745 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 122.682 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.745 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.745 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.745 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34fb67f8-8f33-4fc0-8dad-1370e729dded")
+		)
+		(instances
+			(project "SDR_STM32L0"
+				(path "/89f9ff23-e1ad-4f58-91b7-c66faf1eb626/1fbf19df-a699-4243-bbed-cf9775f7d095"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)

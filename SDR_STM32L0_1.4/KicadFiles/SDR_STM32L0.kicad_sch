@@ -5945,16 +5945,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 93.98 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ec5f0d-764b-4792-b3de-cf4dc21d670d")
-	)
-	(wire
-		(pts
 			(xy 147.32 115.57) (xy 146.05 115.57)
 		)
 		(stroke
@@ -6363,28 +6353,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USART1_CTS"
-		(shape input)
-		(at 93.98 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "329cf055-cddd-47d9-b62e-dc9c998f421d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.4556 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
