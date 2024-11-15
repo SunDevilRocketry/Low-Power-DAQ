@@ -6455,7 +6455,7 @@
 			)
 		)
 	)
-	(global_label "USART2_CTX"
+	(global_label "USART2_CTS"
 		(shape input)
 		(at 93.98 35.56 0)
 		(fields_autoplaced yes)
