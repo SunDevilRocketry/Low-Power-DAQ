@@ -6560,7 +6560,7 @@
 			)
 		)
 	)
-	(global_label "USART2_CTS"
+	(global_label "ROUTPUT"
 		(shape input)
 		(at 74.93 149.86 180)
 		(fields_autoplaced yes)
@@ -6572,7 +6572,7 @@
 		)
 		(uuid "1d046f0e-fc00-403d-a02d-a4049e4cc198")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4544 149.86 0)
+			(at 63.4781 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +6956,7 @@
 			)
 		)
 	)
-	(global_label "USART2_TX"
+	(global_label "BOUTPUT"
 		(shape input)
 		(at 87.63 154.94 180)
 		(fields_autoplaced yes)
@@ -6968,7 +6968,7 @@
 		)
 		(uuid "c1d84f6c-452a-41b3-9766-6d9a503053dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.4244 154.94 0)
+			(at 76.1781 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +7066,7 @@
 			)
 		)
 	)
-	(global_label "USART2_RX"
+	(global_label "GOUTPUT"
 		(shape input)
 		(at 81.28 152.4 180)
 		(fields_autoplaced yes)
@@ -7078,7 +7078,7 @@
 		)
 		(uuid "f5e97794-2159-4173-b5e9-9eb64c33be7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.772 152.4 0)
+			(at 69.8281 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
